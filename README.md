@@ -21,7 +21,11 @@ See also: [The DSSAT Crop Modeling Ecosystem](https://dssat.net/wp-content/uploa
 
 and: [Non-threatening best practice DSSAT Fortran coding guidelines](https://dssat.net/non-threatening-best-practice-dssat-fortran-coding-guidelines). 
 
+## Revised CROPGRO
+
 This version of DSSAT - CSM includes the modifications done by Mercau et al. (2007) to the CROPGRO model. These modifications include a new Evapotranspiration function that is empirically corrected with LAI to improve the estimation when demand is high during summertime and a non linear water stress function. 
+
+J.L. Mercau, J.L. Dardanelli, D.J. Collino, J.M. Andriani, A. Irigoyen, E.H. Satorre, Predicting on-farm soybean yields in the pampas using CROPGRO-soybean, Field Crops Research, Volume 100, Issues 2–3, 2007, Pages 200-209, ISSN 0378-4290, https://doi.org/10.1016/j.fcr.2006.07.006.
 
 ## The directory structure ##
 
