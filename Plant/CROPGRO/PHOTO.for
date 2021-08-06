@@ -190,8 +190,13 @@ C-----------------------------------------------------------------------
         E_FAC = MIN(AGEFCC, PStres1)
       ENDIF
 
+!      PG =  PTSMAX * SLPF * PGFAC * TPGFAC * E_FAC * 
+!     &            PGSLW * PRATIO * PGLFMX * SWFAC
+     
       PG =  PTSMAX * SLPF * PGFAC * TPGFAC * E_FAC * 
-     &            PGSLW * PRATIO * PGLFMX * SWFAC
+     &            PGSLW * PRATIO * PGLFMX 
+     
+      PG = PG * (1 - (1 - SWFAC)**4)
 
 !From WDB (chp 10/21/03):
 !        PG = PG * MIN(SWFAC ,2*(1-SATFAC) )
