@@ -21,6 +21,7 @@ See also: [The DSSAT Crop Modeling Ecosystem](https://dssat.net/wp-content/uploa
 
 and: [Non-threatening best practice DSSAT Fortran coding guidelines](https://dssat.net/non-threatening-best-practice-dssat-fortran-coding-guidelines). 
 
+This version of DSSAT - CSM includes the modifications done by Mercau et al. (2007) to the CROPGRO model. These modifications include a new Evapotranspiration function that is empirically corrected with LAI to improve the estimation when demand is high during summertime and a non linear water stress function. 
 
 ## The directory structure ##
 
